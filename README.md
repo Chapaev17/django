@@ -1,15 +1,15 @@
 # cheauth-nuxt
 
-dependencies: {
-    https://github.com/nuxt-community/auth-module
-        (npm install @nuxtjs/auth-next @nuxtjs/axios),
-    https://axios.nuxtjs.org/
-        (npm install @nuxtjs/axios),
-    https://bootstrap-vue.org/
-        (npm install bootstrap-vue)
-}
+Dependencies: 
+1. https://github.com/nuxt-community/auth-module
+    (npm install @nuxtjs/auth-next @nuxtjs/axios),
+2. https://axios.nuxtjs.org/
+    (npm install @nuxtjs/axios),
+3. https://bootstrap-vue.org/
+    (npm install bootstrap-vue)
 
 
+Setting up:
 1.  Add in nuxt.config.js:
         const cheauthUrl = process.env.NODE_ENV === 'development' ? "http://127.0.0.1:5017/cheauth/" : "http://109.234.37.52/cheauth/"
         env: {
